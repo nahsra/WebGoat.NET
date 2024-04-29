@@ -9,6 +9,7 @@ public class ApiResponse
 
     public ApiResponse(int statusCode)
     {
+        // do thing
         StatusCode = statusCode;
         Message = GetDefaultMessageForStatusCode(statusCode);
     }
